@@ -213,6 +213,26 @@ info
 	margin: 0 auto;
 }
 }
+
+/*-----------------------------------
+/footer
+-----------------------------------*/
+.slider {
+	width: 100%;
+	height: 100vh;
+}
+
+.slider img {
+	width: 34vw;
+	height: 50vmin;
+}
+
+.slider button {
+	width: 55px;
+	height: 100px;
+	border: 1px solid #1051D3;
+}
+
 /*-----------------------------------
 /footer
 -----------------------------------*/
@@ -256,7 +276,7 @@ footer .icon:hover {
 	transform: rotate(360deg);
 }
 
-button {
+footer button {
 	position: absolute;
 	margin-top: 120px;
 	left: 50%;
@@ -272,11 +292,11 @@ button {
 	overflow: hidden;
 }
 
-button:focus {
+footer button:focus {
 	outline: none;
 }
 
-button:before {
+footer button:before {
 	content: '';
 	display: block;
 	position: absolute;
@@ -291,7 +311,7 @@ button:before {
 }
 
 
-button:after {
+footer button:after {
 	content: '';
 	display: block;
 	position: absolute;
@@ -305,19 +325,19 @@ button:after {
 	transform: translate(-100px) scaleX(-15deg);
 }
 
-button:hover {
+footer button:hover {
 	background: #1051D3;
 	cursor: pointer;
 	color: #ffffff;
 }
 
-button:hover:before {
+footer button:hover:before {
 	transform: translateX(300px) skew(-15deg);
 	opacity: .6;
 	transition: .7s;
 }
 
-button:hover:after {
+footer button:hover:after {
 	transform: translateX(300px) skew(-15deg);
 	opacity: 1;
 	transition: .7s;
